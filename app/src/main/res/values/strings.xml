@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab1AndroidAPI_PD07826</string>
+    <string name="DescImage">TODO</string>
+    <string name="hintUsername">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="textLogin">Đăng Nhập</string>
+    <string name="textSignUp">Đăng Ký</string>
+    <string name="textBack">Quay Lại</string>
+    <string name="textLogOut">Đăng Xuất</string>
+    <string name="textForgot">Quên mật khẩu</string>
+    <string name="textSMS">Đăng nhập bằng sms</string>
+    <string name="hintPhone">Phone number</string>
+    <string name="hintOTP">OTP</string>
+    <string name="textOTP">GET OTP</string>
+</resources>

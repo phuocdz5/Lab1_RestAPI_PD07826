@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="#ffff"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textSignUp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/SignUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintUsername"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/SignPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintPassword"
+        android:inputType="textPassword"
+        android:importantForAutofill="no"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textSignUp"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textBack"
+        android:backgroundTint="#cccc"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
